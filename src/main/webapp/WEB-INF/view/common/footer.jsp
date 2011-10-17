@@ -1,0 +1,1 @@
+<p>commenter v1.3r <a href="http://www.hutcraft.jp">Hutcraft</a></p>

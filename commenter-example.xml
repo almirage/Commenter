@@ -1,0 +1,16 @@
+<Context path="/commenter" reloadable="false" docBase="/Users/tsutomu/Documents/workspace/commenter/src/main/webapp" workDir="/Users/tsutomu/Documents/workspace/commenter/work" >
+	<Logger className="org.apache.catalina.logger.SystemOutLogger" verbosity="4" timestamp="true"/>
+	<Resource
+		name="server/db"
+		auth="Container"
+		username="*username*"
+		password="*password*"
+		type="javax.sql.DataSource"
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://host:port/commenter"
+		maxActive="4"
+		maxWait="5000"
+		maxIdle="2"
+	/>
+
+</Context>
